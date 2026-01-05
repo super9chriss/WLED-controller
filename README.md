@@ -3,6 +3,7 @@ A ESP32 C3 based microcontroller which is made to be used with WLED to use 12V o
 <div align="center">
   <img width="398" height="529" alt="image" src="https://github.com/user-attachments/assets/4555378d-5bb7-4ddb-8267-bbb905b79478" />
 </div>
+
 ## Features
 
 * **Microcontroller:** ESP32-C3-WROOM-02 with Wi-Fi and Bluetooth LE.
