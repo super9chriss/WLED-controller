@@ -1,5 +1,7 @@
 # WLED controller
 A ESP32 C3 based microcontroller which is made to be used with WLED to use 12V or 24V ledsttrips.
+I made this project since i want to add some lighting to my wall since its very dark, i wanted to learn something from this project so i made it into a devboard instead of a simpeler PCB design.
+You can attach a 12 or 24V power supply to the Vin port which will directly power the ledstrip so this needs to have the same voltage rating and you can then use the ESP32 to adress the ledstrip.
 <div align="center">
   <img width="398" height="529" alt="image" src="https://github.com/user-attachments/assets/4555378d-5bb7-4ddb-8267-bbb905b79478" />
 </div>
@@ -21,4 +23,11 @@ A ESP32 C3 based microcontroller which is made to be used with WLED to use 12V o
 
 ## Wiring diagram
 <img width="394" height="561" alt="image" src="https://github.com/user-attachments/assets/fb74e88c-656a-4cf5-8348-ee65d7d92e28" />
+
+## BOM
+|Component            |price|link                                                                                                                                                                                                                                                                          |
+|---------------------|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|ledstrip + powersuply|21.79|https://nl.aliexpress.com/item/1005007038025239.html?spm=a2g0o.cart.0.0.3f5461d7XIU4zl&mp=1&pdp_npi=6%40dis%21EUR%21EUR%2032.67%21EUR%2021.79%21%21EUR%2021.79%21%21%21%402103917f17685608530224732ebad8%2112000039180039618%21ct%21NL%21-1%21%211%210%21&gatewayAdapt=glo2nld|
+|PCB                  |41.46|https://cart.jlcpcb.com/smt-order/?pcbFileNo=4c66db31f77f4dcd8bb62a3aeb8100a0                                                                                                                                                                                                 |
+
 
