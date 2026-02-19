@@ -12,6 +12,15 @@ You can attach a 12 or 24V power supply to the Vin port which will directly powe
 * **Power Input:** Supports 12V or 24V DC via dedicated screw terminals.
 * **Logic Level Shifter:** Integrated SN74AHCT125DR to convert 3.3V logic to 5V for reliable LED data.
 * **Connectivity:** USB-C receptacle for easy firmware flashing.
+* **Led strip ports:** GPIO 1,3,4 and 5 are on the right side of the board(from bottom to top so top is 5 and bottom is 1) and can be used for ledstrips.
+## How to use
+
+1. Order the PCBA and lightstrip + powersupply.
+2. Install WLED to the esp using https://install.wled.me/ if it doesnt work follow the steps on the website to install some drivers.
+3. Configure WLED first connect the esp to wifi so you can remotly control the ledstrips, then add in the hardware setup which leds you are using, how many leds u use and on which pin the leds are connected(GPIO 1,3,4 and/or 5).
+<img width="724" height="852" alt="image" src="https://github.com/user-attachments/assets/39d42956-7088-4010-9291-ce13f03111df" />
+
+4. Disconnect the esp from your computer, and only then power it using the power supply also connect the ledstrip if you havent done this yet, and enjoy using the WLED controller.
 
 ## PCB and schematic
 | **PCB Layout** | **Schematic** |
