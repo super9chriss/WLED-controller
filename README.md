@@ -3,7 +3,8 @@ A ESP32 C3 based microcontroller which is made to be used with WLED to use 12V o
 I made this project since i want to add some lighting to my wall since its very dark, i wanted to learn something from this project so i made it into a devboard instead of a simpeler PCB design.
 You can attach a 12 or 24V power supply to the Vin port which will directly power the ledstrip so this needs to have the same voltage rating and you can then use the ESP32 to adress the ledstrip.
 <div align="center">
-  <img width="398" height="529" alt="image" src="https://github.com/user-attachments/assets/4555378d-5bb7-4ddb-8267-bbb905b79478" />
+<img width="491" height="692" alt="image" src="https://github.com/user-attachments/assets/5009740f-faeb-4e98-bbcf-d34870b5dc76" />
+
 </div>
 
 ## Features
